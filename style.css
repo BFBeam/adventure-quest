@@ -5,7 +5,7 @@
 * {
     text-align: center;
     box-sizing: border-box;
-    cursor: url(./Pictures/sword.png), auto;
+    cursor: url(./Pictures/lightsword.png), auto;
 }
 
 a:visited {
@@ -24,7 +24,6 @@ html {
 .collapsible {
     background-color: black;
     color: #fff;
-    cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
@@ -90,10 +89,6 @@ header ul {
 body {
     height: 100%;
     margin: 0;
-}
-
-.body-wrapper {
-    height: 100%;
 }
 
 .main-title-background {
