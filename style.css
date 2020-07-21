@@ -13,6 +13,10 @@ a:visited {
     
 }
 
+html {
+    height: 100%;
+}
+
 /*
     Top Header and Nav
 */
@@ -88,6 +92,10 @@ body {
     margin: 0;
 }
 
+.body-wrapper {
+    height: 100%;
+}
+
 .main-title-background {
     background-image: url(./Pictures/cobble.jpg);
     background-position: center;
@@ -96,7 +104,7 @@ body {
     filter: blur(8px); */
     background-size: cover;
     height: 100%;
-    padding-bottom: 8em;
+    padding-bottom: 14em;
     padding-top: 8em;
 }
 
@@ -217,7 +225,6 @@ footer {
     background-color: black;
     overflow: auto;
     color: white;
-    height: 100%;
 }
 
 footer a {
