@@ -2,7 +2,7 @@
     Media Queries
 */
 
-@media screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {
     .main-nav {
         display: flex;
         flex-direction: column;
@@ -16,5 +16,29 @@
         flex-wrap: wrap;
         padding: 1em;
         border: 2px solid white;
+    }
+
+    footer {
+        display: flex;
+        background-color: black;
+        overflow: auto;
+        color: white;
+        justify-content: center;
+        align-content: flex-end;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .main-title {
+        font-size: 200%;
+    }
+
+    .main-title-background {
+        padding: 0;
+        height: auto;
+    }
+
+    .body-wrapper {
+        height: auto;
     }
 }
