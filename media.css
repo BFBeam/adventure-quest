@@ -6,6 +6,7 @@
     .main-nav {
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
 
     header li {
@@ -18,6 +19,14 @@
         border: 2px solid white;
     }
 
+    body {
+        height: auto;
+    }
+
+    .body-wrapper {
+        height: auto;
+    }
+
     footer {
         display: flex;
         background-color: black;
@@ -25,6 +34,7 @@
         color: white;
         justify-content: center;
         align-content: flex-end;
+        height: auto;
     }
 }
 
@@ -34,11 +44,18 @@
     }
 
     .main-title-background {
-        padding: 0;
-        height: auto;
+        height: 100%;
     }
 
     .body-wrapper {
+        height: 100%;
+    }
+
+    body {
+        height: auto;
+    }
+
+    footer {
         height: auto;
     }
 }
