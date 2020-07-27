@@ -138,104 +138,22 @@ body {
 }
 
 /*
-    Main Content Styles | Form
-*/
-
-.form-background {
-    background-color: lightgray;
-    background-image: url(./Pictures/cobblestone2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    padding-top: 8em;
-}
-
-.form-content {
-    border: 3px solid #f1f1f1;
-    background-color: rgba(82, 81, 81);
-    background-color: rgba(82, 81, 81, 0.6);
-    max-width: 75%;
-    margin: auto;
-}
-
-input[type=text]:focus {
-    outline: none;
-}
-
-input[type=button],
-input[type=submit],
-input[type=reset] {
-    background-color: rgba(82, 81, 81);
-    border: none;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 16px 32px;
-}
-
-h2 {
-    display: inline-block;
-    margin-top: .25em;
-    font-family: fantasy, arial, sans-serif;
-    font-size: 300%;
-    text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
-    text-decoration: underline;
-}
-
-.form-description {
-    margin-top: -1.5em;
-    margin-left: 2em;
-    margin-right: 2em;
-    align-content: center;
-    font-weight: bold;
-    /*
-    background-color: rgba(82, 81, 81);
-    background-color: rgba(82, 81, 81, 0.6); */
-}
-
-.form-input {
-    padding-bottom: 3em;
-    padding-top: 1em;
-    margin-top: 8em;
-    font-weight: bold;
-    font-size: 100%;
-    background-color: rgba(82, 81, 81);
-    background-color: rgba(82, 81, 81, 0.6);
-    border-top: 4px solid black;
-    height: auto;
-}
-
-input {
-    padding-top: 1em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    border: 1px solid black;
-}
-
-input:hover {
-    background-color: gray;
-}
-
-/*
     Footer Content
 */
 
 footer {
+    display: flex;
     background-color: black;
     overflow: auto;
     color: white;
+    justify-content: center;
+    align-content: flex-end;
 }
 
 footer a {
     color: white;
     text-decoration: none;
     
-}
-
-.footer-nav {
-    list-style-type: none;
-    color: white;
 }
 
 .fa {
