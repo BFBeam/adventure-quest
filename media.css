@@ -3,10 +3,17 @@
 */
 
 @media screen and (max-width: 950px) {
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
     header li {
         list-style-type: none;
         font-size: 200%;
-        display: list-item;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         padding: 1em;
         border: 2px solid white;
     }
