@@ -1,5 +1,5 @@
 /*
-    Media Queries
+    Media Queries Sizes
 */
 
 @media only screen and (max-width: 950px) {
@@ -57,5 +57,16 @@
 
     footer {
         height: auto;
+    }
+}
+
+/* 
+    Orientation
+*/
+
+@media (orientation: landscape) {
+    html {
+        height: auto;
+        width: auto;
     }
 }
