@@ -2,6 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="media.css">
         <!-- Add icon library -->
@@ -20,36 +21,23 @@
             </ul>
         </div>
         <!-- Menu Button Functionality -->
-        <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
-
-            for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                content.style.display = "none";
-                } else {
-                content.style.display = "block";
-                }
-            });
-            }
-        </script>
+        <script src="/JavaScript/menu.js"></script>
     </header>
     <body>
         <div class="body-wrapper">
-            <div class="main-title-background">
+            <div class="main-background">
                 <div class="main-title">
                     <h1>Adventure Quest</h1>
-                    <a href="story.html"><h2 class="start-button">START</h2></a>
+                    <a href="storyArc/story.html"><h2 class="start-button">START</h2></a>
                 </div>
             </div>
         </div>
     </body>
     <footer>
         <div class="author">
-            <h3>Website by Austin Beam: <a href="#" class="fa fa-linkedin"></a><a href="#" class="fa fa-github"></a></h3>
+            <h3>Website by Austin Beam: 
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-github"></a></h3>
         </div>
     </footer>
 </html>
