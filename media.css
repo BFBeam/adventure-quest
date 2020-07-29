@@ -2,6 +2,38 @@
     Media Queries Sizes
 */
 
+@media only screen and (max-width: 1550px) {
+    .about-content {
+        flex-direction: column;
+        align-content: center;
+    }
+    .about-content :nth-child(1) {
+        order: 1;
+    }
+    .about-content :nth-child(2) {
+        order: 1;
+    }
+    .about-content :nth-child(3) {
+        order: 2;
+    }
+
+    .about-content :nth-child(4) {
+        order: 1;
+    }
+    .about-content :nth-child(5) {
+        order: 3;
+    }
+    .about-content :nth-child(6) {
+        order: 3;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .about-content p {
+        width: 85%;
+    }
+}
+
 @media only screen and (max-width: 950px) {
     .main-nav {
         display: flex;
@@ -81,6 +113,11 @@
 
     .story-options button:nth-child(even) {
         border-top: 4px solid black;
+    }
+
+    .about-content img {
+        width: 80%;
+        height: 80%;
     }
 }
 
