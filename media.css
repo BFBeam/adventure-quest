@@ -59,6 +59,25 @@
         height: auto;
     }
 
+    .faq-content {
+        display: inline-flex;
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }
+
+    .faq-content h2 {
+        width: auto;
+    }
+
+    .faq-content p {
+        padding-left: 2em;
+    }
+
+    .faq-content button {
+        display: inline-block;
+    }
+
     footer {
         display: flex;
         background-color: black;
